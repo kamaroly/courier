@@ -1,0 +1,28 @@
+[14-Mar-2015 12:36:48 UTC] PHP Fatal error:  Can't use function return value in write context in /home1/africah/public_html/urugendo.rw/new/app/controllers/CourrierBookController.php on line 84
+[14-Mar-2015 12:37:32 UTC] PHP Fatal error:  Can't use function return value in write context in /home1/africah/public_html/urugendo.rw/new/app/controllers/CourrierBookController.php on line 84
+[14-Mar-2015 12:39:31 UTC] PHP Fatal error:  Can't use function return value in write context in /home1/africah/public_html/urugendo.rw/new/app/controllers/CourrierBookController.php on line 84
+[16-Mar-2015 20:43:16 UTC] PHP Fatal error:  Can't use function return value in write context in /home1/africah/public_html/urugendo.rw/new/app/controllers/CourrierBookController.php on line 84
+[16-Mar-2015 20:56:32 UTC] PHP Fatal error:  Can't use function return value in write context in /home1/africah/public_html/urugendo.rw/new/app/controllers/CourrierBookController.php on line 84
+[16-Mar-2015 21:00:48 UTC] PHP Fatal error:  Can't use function return value in write context in /home1/africah/public_html/urugendo.rw/new/app/controllers/CourrierBookController.php on line 84
+[16-Mar-2015 21:07:10 UTC] PHP Fatal error:  Can't use function return value in write context in /home1/africah/public_html/urugendo.rw/new/app/controllers/CourrierBookController.php on line 84
+[16-Mar-2015 21:07:21 UTC] PHP Fatal error:  Can't use function return value in write context in /home1/africah/public_html/urugendo.rw/new/app/controllers/CourrierBookController.php on line 84
+[19-Mar-2015 15:30:50 UTC] PHP Parse error:  syntax error, unexpected 'assets' (T_STRING), expecting ')' in /home1/africah/public_html/urugendo.rw/app/lang/en/courriers.php on line 36
+[19-Mar-2015 15:30:51 UTC] PHP Parse error:  syntax error, unexpected 'assets' (T_STRING), expecting ')' in /home1/africah/public_html/urugendo.rw/app/lang/en/courriers.php on line 36
+[19-Mar-2015 15:31:03 UTC] PHP Parse error:  syntax error, unexpected 'assets' (T_STRING), expecting ')' in /home1/africah/public_html/urugendo.rw/app/lang/en/courriers.php on line 36
+[19-Mar-2015 15:31:04 UTC] PHP Parse error:  syntax error, unexpected 'assets' (T_STRING), expecting ')' in /home1/africah/public_html/urugendo.rw/app/lang/en/courriers.php on line 36
+[19-Mar-2015 15:31:04 UTC] PHP Parse error:  syntax error, unexpected 'assets' (T_STRING), expecting ')' in /home1/africah/public_html/urugendo.rw/app/lang/en/courriers.php on line 36
+[19-Mar-2015 15:31:13 UTC] PHP Parse error:  syntax error, unexpected 'assets' (T_STRING), expecting ')' in /home1/africah/public_html/urugendo.rw/app/lang/en/courriers.php on line 36
+[19-Mar-2015 15:31:14 UTC] PHP Parse error:  syntax error, unexpected 'assets' (T_STRING), expecting ')' in /home1/africah/public_html/urugendo.rw/app/lang/en/courriers.php on line 36
+[19-Mar-2015 15:31:14 UTC] PHP Parse error:  syntax error, unexpected 'assets' (T_STRING), expecting ')' in /home1/africah/public_html/urugendo.rw/app/lang/en/courriers.php on line 36
+[24-Mar-2015 06:55:35 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home1/africah/public_html/urugendo.rw/app/models/Customer.php on line 21
+[24-Mar-2015 07:37:32 UTC] PHP Parse error:  syntax error, unexpected 'courriers' (T_STRING) in /home1/africah/public_html/urugendo.rw/app/storage/views/929cbaa846ba1760aaea3760204c2cb8 on line 3
+[24-Mar-2015 07:37:57 UTC] PHP Parse error:  syntax error, unexpected 'courriers' (T_STRING) in /home1/africah/public_html/urugendo.rw/app/storage/views/929cbaa846ba1760aaea3760204c2cb8 on line 3
+[25-Mar-2015 06:06:57 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/africah/public_html/urugendo.rw/app/validators.php on line 19
+[25-Mar-2015 06:06:58 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/africah/public_html/urugendo.rw/app/validators.php on line 19
+[25-Mar-2015 06:07:04 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/africah/public_html/urugendo.rw/app/validators.php on line 19
+[25-Mar-2015 06:07:16 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/africah/public_html/urugendo.rw/app/validators.php on line 19
+[25-Mar-2015 06:07:17 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/africah/public_html/urugendo.rw/app/validators.php on line 19
+[25-Mar-2015 06:07:18 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/africah/public_html/urugendo.rw/app/validators.php on line 19
+[25-Mar-2015 06:07:24 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/africah/public_html/urugendo.rw/app/validators.php on line 19
+[25-Mar-2015 06:07:25 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/africah/public_html/urugendo.rw/app/validators.php on line 19
+[25-Mar-2015 06:08:04 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/africah/public_html/urugendo.rw/app/validators.php on line 19
