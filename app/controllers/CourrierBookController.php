@@ -9,9 +9,7 @@ class CourrierBookController extends \BaseController
 	 */
 	public function welcome()
 	{
-	        Session::forget('sender'); //clean sessions
-	        Session::forget('reciever'); //clean sessions
-	        Session::forget('routedata'); //clean sessions
+	       
 	        
 		return View::make('courriers.new');
 	}
@@ -23,13 +21,11 @@ class CourrierBookController extends \BaseController
 	 */
   public function registerCustomer()
   {	
-  	 Session::forget('sender'); //clean sessions
-	 Session::forget('reciever'); //clean sessions
-	 
+  	 
   	//Get submitted information and register them to the session 
   	$routedata = Input::only('from_city','from_area','to_city','to_area','type','pickup_date','time_hours','time_minutes');
 
-    $routedata['pickup_time'] = $routedata['time_hours'].':'.$routedata['time_minutes'];
+        $routedata['pickup_time'] = $routedata['time_hours'].':'.$routedata['time_minutes'];
    
     // first check if the Courrier route exists
     if(!$this->routeExists($routedata['from_area'],$routedata['to_area']))
@@ -59,8 +55,8 @@ class CourrierBookController extends \BaseController
       return Redirect::back()->withErrors($validator)->withInput();
     }
 
-    //Get the price for this route
-    $routedata['price']   = $this->routePrice($routedata['from_area'],$routedata['to_area']);
+       //Get the price for this route
+        $routedata['price']   = $this->routePrice($routedata['from_area'],$routedata['to_area']);
 
   	Session::put('routedata', $routedata);
   	
@@ -87,25 +83,30 @@ class CourrierBookController extends \BaseController
       
       return View::make('courriers.customer');
     }
-  	// Check if we have route information before continuing
+    // Check if we have route information before continuing
     /** fixins backward compatibility with php5.4 */
     $routedata = Session::get('routedata');
+    
   	if(!empty($routedata))
   	{   
   	
-	        Session::forget('sender'); //clean sessions
-	        Session::forget('reciever'); //clean sessions
-
-  		// Let's get previous submitted data
+	   	// Let's get previous submitted data
   		$senderData   = $this->getCustomerData(Input::all(),'sender_');
 
   		$sender       = Customer::findOrCreate($senderData);
-      Session::put('sender',$sender);
+             
+                //first clean any existing session
+                Session::forget('sender');
+         
+                Session::put('sender',$sender);
 
   		$receiverData = $this->getCustomerData(Input::all(),'receiver_');
         
-      $receiver     = Customer::findOrCreate($receiverData);
-      Session::put('receiver',$receiver);
+                $receiver     = Customer::findOrCreate($receiverData);
+                //first clean any existing session
+                Session::forget('sender');
+                
+                Session::put('receiver',$receiver);
 
   		$routedata 	  = Session::get('routedata');
 

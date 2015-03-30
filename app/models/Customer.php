@@ -20,7 +20,7 @@ public static function findOrCreate($data)
 {
     $customer = static::where(['telephone'=>$data['telephone'],'email'=>$data['email']])->get();
 
-    return !$customer->isEmpty() ?$customer->first() : static::create($data)->first();
+    return !$customer->isEmpty() ?$customer->first() : static::create($data);
 }
 /**
  * Validate the phone number
