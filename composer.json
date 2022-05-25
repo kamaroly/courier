@@ -8,7 +8,7 @@
 		"laravel/framework": "4.2.*",
 		"laracasts/flash": "~1.0",
 		"rydurham/sentinel": "~1.4",
-		"guzzlehttp/guzzle": "4.*"
+		"guzzlehttp/guzzle": "6.*"
 	},
 	"require-dev":{
 		"way/generators": "~2.0"
